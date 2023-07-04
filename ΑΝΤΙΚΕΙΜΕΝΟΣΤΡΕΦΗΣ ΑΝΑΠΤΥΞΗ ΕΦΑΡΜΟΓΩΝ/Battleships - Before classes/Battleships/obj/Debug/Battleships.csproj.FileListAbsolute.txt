@@ -1,0 +1,22 @@
+C:\Users\kasta\source\repos\Battleships\Battleships\bin\Debug\Battleships.exe.config
+C:\Users\kasta\source\repos\Battleships\Battleships\bin\Debug\Battleships.exe
+C:\Users\kasta\source\repos\Battleships\Battleships\bin\Debug\Battleships.pdb
+C:\Users\kasta\source\repos\Battleships\Battleships\obj\Debug\Battleships.csproj.AssemblyReference.cache
+C:\Users\kasta\source\repos\Battleships\Battleships\obj\Debug\Battleships.csproj.SuggestedBindingRedirects.cache
+C:\Users\kasta\source\repos\Battleships\Battleships\obj\Debug\Battleships.Form1.resources
+C:\Users\kasta\source\repos\Battleships\Battleships\obj\Debug\Battleships.Properties.Resources.resources
+C:\Users\kasta\source\repos\Battleships\Battleships\obj\Debug\Battleships.csproj.GenerateResource.cache
+C:\Users\kasta\source\repos\Battleships\Battleships\obj\Debug\Battleships.csproj.CoreCompileInputs.cache
+C:\Users\kasta\source\repos\Battleships\Battleships\obj\Debug\Battleships.exe
+C:\Users\kasta\source\repos\Battleships\Battleships\obj\Debug\Battleships.pdb
+C:\Users\kasta\source\repos\Battleships - Before classes\Battleships\bin\Debug\Battleships.exe.config
+C:\Users\kasta\source\repos\Battleships - Before classes\Battleships\bin\Debug\Battleships.exe
+C:\Users\kasta\source\repos\Battleships - Before classes\Battleships\bin\Debug\Battleships.pdb
+C:\Users\kasta\source\repos\Battleships - Before classes\Battleships\obj\Debug\Battleships.csproj.AssemblyReference.cache
+C:\Users\kasta\source\repos\Battleships - Before classes\Battleships\obj\Debug\Battleships.csproj.SuggestedBindingRedirects.cache
+C:\Users\kasta\source\repos\Battleships - Before classes\Battleships\obj\Debug\Battleships.Form1.resources
+C:\Users\kasta\source\repos\Battleships - Before classes\Battleships\obj\Debug\Battleships.Properties.Resources.resources
+C:\Users\kasta\source\repos\Battleships - Before classes\Battleships\obj\Debug\Battleships.csproj.GenerateResource.cache
+C:\Users\kasta\source\repos\Battleships - Before classes\Battleships\obj\Debug\Battleships.csproj.CoreCompileInputs.cache
+C:\Users\kasta\source\repos\Battleships - Before classes\Battleships\obj\Debug\Battleships.exe
+C:\Users\kasta\source\repos\Battleships - Before classes\Battleships\obj\Debug\Battleships.pdb
