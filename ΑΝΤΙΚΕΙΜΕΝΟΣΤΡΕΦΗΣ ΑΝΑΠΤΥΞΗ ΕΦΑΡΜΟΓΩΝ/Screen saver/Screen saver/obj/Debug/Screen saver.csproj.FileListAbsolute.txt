@@ -1,0 +1,12 @@
+C:\Users\kasta\source\repos\Screen saver\Screen saver\bin\Debug\Screen saver.exe.config
+C:\Users\kasta\source\repos\Screen saver\Screen saver\bin\Debug\Screen saver.exe
+C:\Users\kasta\source\repos\Screen saver\Screen saver\bin\Debug\Screen saver.pdb
+C:\Users\kasta\source\repos\Screen saver\Screen saver\obj\Debug\Screen saver.csproj.AssemblyReference.cache
+C:\Users\kasta\source\repos\Screen saver\Screen saver\obj\Debug\Screen saver.csproj.SuggestedBindingRedirects.cache
+C:\Users\kasta\source\repos\Screen saver\Screen saver\obj\Debug\Screen_saver.Form1.resources
+C:\Users\kasta\source\repos\Screen saver\Screen saver\obj\Debug\Screen_saver.Properties.Resources.resources
+C:\Users\kasta\source\repos\Screen saver\Screen saver\obj\Debug\Screen saver.csproj.GenerateResource.cache
+C:\Users\kasta\source\repos\Screen saver\Screen saver\obj\Debug\Screen saver.csproj.CoreCompileInputs.cache
+C:\Users\kasta\source\repos\Screen saver\Screen saver\obj\Debug\Screen saver.exe
+C:\Users\kasta\source\repos\Screen saver\Screen saver\obj\Debug\Screen saver.pdb
+C:\Users\kasta\source\repos\Screen saver\Screen saver\obj\Debug\Screen_saver.Form2.resources
