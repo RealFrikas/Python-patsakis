@@ -1,0 +1,12 @@
+C:\Users\kasta\source\repos\Jet Flight\Jet Flight\bin\Debug\Jet Flight.exe.config
+C:\Users\kasta\source\repos\Jet Flight\Jet Flight\bin\Debug\Jet Flight.exe
+C:\Users\kasta\source\repos\Jet Flight\Jet Flight\bin\Debug\Jet Flight.pdb
+C:\Users\kasta\source\repos\Jet Flight\Jet Flight\obj\Debug\Jet Flight.csproj.AssemblyReference.cache
+C:\Users\kasta\source\repos\Jet Flight\Jet Flight\obj\Debug\Jet Flight.csproj.SuggestedBindingRedirects.cache
+C:\Users\kasta\source\repos\Jet Flight\Jet Flight\obj\Debug\Jet_Flight.Form1.resources
+C:\Users\kasta\source\repos\Jet Flight\Jet Flight\obj\Debug\Jet_Flight.Properties.Resources.resources
+C:\Users\kasta\source\repos\Jet Flight\Jet Flight\obj\Debug\Jet Flight.csproj.GenerateResource.cache
+C:\Users\kasta\source\repos\Jet Flight\Jet Flight\obj\Debug\Jet Flight.csproj.CoreCompileInputs.cache
+C:\Users\kasta\source\repos\Jet Flight\Jet Flight\obj\Debug\Jet Flight.exe
+C:\Users\kasta\source\repos\Jet Flight\Jet Flight\obj\Debug\Jet Flight.pdb
+C:\Users\kasta\source\repos\Jet Flight\Jet Flight\obj\Debug\Jet_Flight.scoreboard.resources
