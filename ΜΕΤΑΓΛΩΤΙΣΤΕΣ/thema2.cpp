@@ -16,7 +16,7 @@ void mgenerator(string& word, int& index);
 <G>::=ν|<Z> ♥
 <M>::=-<K>|+<K>|ε ♥
 
-time bomb
+time bomb ♥
 */
 
 //random deciders
