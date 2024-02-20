@@ -46,7 +46,7 @@ int random_of_session;
 void mgenerator(string& word, int& index){
 
     timebomb++;
-    if (timebomb == 150)
+    if (timebomb >= 150)
     {
         return;
     }
@@ -74,7 +74,7 @@ void mgenerator(string& word, int& index){
 void ggenerator(string& word, int& index){
 
     timebomb++;
-    if (timebomb == 150)
+    if (timebomb >= 150)
     {
         return;
     }
@@ -97,7 +97,7 @@ void ggenerator(string& word, int& index){
 void kgenerator(string& word, int& index){
 
     timebomb++;
-    if (timebomb == 150)
+    if (timebomb >= 150)
     {
         return;
     }
@@ -114,7 +114,7 @@ void kgenerator(string& word, int& index){
 void zgenerator(string& word, int& index){
 
     timebomb++;
-    if (timebomb == 150)
+    if (timebomb >= 150)
     {
         return;
     }
