@@ -16,15 +16,15 @@ void mgenerator(string& word, int& index);
 <G>::=ν|<Z> ♥
 <M>::=-<K>|+<K>|ε ♥
 
-time bomb ♥
+time bomb
 */
 
 //random deciders
-bool decideOneInTwo() {
+int decideOneInTwo() {
     random_device rd;
     mt19937 gen(rd());
     uniform_int_distribution<int> distribution(1, 2);
-    return distribution(gen) == 1;
+    return distribution(gen);
 }
 
 int decideOneInThree() {
@@ -79,7 +79,8 @@ void ggenerator(string& word, int& index){
         return;
     }
 
-    if (decideOneInTwo)
+    random_of_session = decideOneInTwo();
+    if (random_of_session == 1)
     {
         word.replace(index, 3, "v");
         index++;
@@ -122,6 +123,7 @@ void zgenerator(string& word, int& index){
     index ++;
     cout << word << endl;
     kgenerator(word, index);
+    index++;
 }
 
 int main(){
