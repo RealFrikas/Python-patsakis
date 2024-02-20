@@ -10,15 +10,13 @@ void kgenerator(string& word, int& index);
 void ggenerator(string& word, int& index);
 void mgenerator(string& word, int& index);
 
-
-
 /*
 <Z>::=(<K>) ♥
 <K>::=<G><M> ♥
 <G>::=ν|<Z> ♥
 <M>::=-<K>|+<K>|ε ♥
 
-time bomb
+time bomb ♥
 */
 
 //random deciders
@@ -38,11 +36,13 @@ int decideOneInThree() {
 
 //functions for each iteration that print after the outcome and a global variable that stops them
 
-//the number that kills the program after iterations
+//the number that kills the program after 150 iterations
 int timebomb = 0;
 
 //random_of_session is the random number decided when the function is called
 int random_of_session;
+
+//<M>::=-<K>|+<K>|ε ♥
 void mgenerator(string& word, int& index){
 
     timebomb++;
@@ -70,6 +70,7 @@ void mgenerator(string& word, int& index){
     }
 }
 
+//<G>::=ν|<Z> ♥
 void ggenerator(string& word, int& index){
 
     timebomb++;
@@ -91,6 +92,7 @@ void ggenerator(string& word, int& index){
     }
 }
 
+//<K>::=<G><M> ♥
 void kgenerator(string& word, int& index){
 
     timebomb++;
@@ -107,6 +109,7 @@ void kgenerator(string& word, int& index){
     mgenerator(word,index);
 }
 
+//<Z>::=(<K>) ♥
 void zgenerator(string& word, int& index){
 
     timebomb++;
@@ -115,7 +118,6 @@ void zgenerator(string& word, int& index){
         return;
     }
     
-
     word.replace(index, 3, "(<K>)");
     index ++;
     cout << word << endl;
@@ -128,5 +130,6 @@ int main(){
     cout << answer << endl;
     zgenerator(answer, index);
     cout << answer << endl;
+    system("pause");
     return 0;
 }
