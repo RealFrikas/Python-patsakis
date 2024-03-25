@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercose 4</title>
+</head>
+<body style="background-color: antiquewhite;">
+    <form>
+        <label for="inputText">Enter text:</label>
+        <input type="text" id="inputText">
+        <button type="button" onclick="transformText()">Transform</button>
+    </form>
+    <div id="output"></div>
+
+    <script>
+        function transformText() {
+            const inputText = document.getElementById('inputText').value;
+            const transformedText = transformCharacters(inputText);
+            displayResult(transformedText);
+        }
+
+        function transformCharacters(text) {
+            let transformedText = '';
+
+            for (let i = 0; i < text.length; i++) {
+                const currentChar = text.charAt(i);
+
+                // Check if the character is a letter
+                if (/[a-zA-Zα-ωΑ-Ω]/.test(currentChar)) {
+
+                    // Determine the next character in the alphabet
+                    const nextChar = String.fromCharCode(currentChar.charCodeAt(0) + 1);
+
+                    // Generate a random font size between 10 and 30
+                    const randomSize = Math.floor(Math.random() * 21) + 10;
+
+                    // Build the transformed text with random font size
+                    transformedText += `<span style="font-size: ${randomSize}px;">${nextChar}</span>`;
+                } else {
+
+                    // Keep non-letter characters unchanged
+                    transformedText += currentChar;
+                }
+            }
+            return transformedText;
+        }
+
+        function displayResult(result) {
+            const outputDiv = document.getElementById('output');
+            outputDiv.innerHTML = result;
+        }
+    </script>
+</body>
+</html>
