@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Φόρμα Εγγραφής</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <form>
+
+            <h1><u>Φόρμα Εγγραφής για την εταιρία FRK</u></h1><hr>
+
+            <div class="form-group">
+                
+                <label for="btnm">Κύριος</label>
+                <input name="btn" checked="checked" type="radio" id="btnm" value="Κύριος">
+                <label for="btnf">Κυρία</label>
+                <input name="btn" type="radio" id="btnf" value="Κυρία">
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="name"  title="Συμπληρώστε το όνομα σας με ελληνικά γράμματα">Όνομα:</label>
+                <input type="text" id="name" placeholder="Όνομα">
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="birthdate">Ημερομηνία Γέννησης:</label>
+                <input type="date" id="birthdate" max="2022-12-31" min="1980-01-01">
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="country">Χώρα Κατοικίας:</label>
+                <select id="country">
+                    <option value="Ελλάδα" selected>Ελλάδα</option>
+                    <option value="Τουρκία">Τουρκία</option>
+                    <option value="Ιταλία">Ιταλία</option>
+                    <option value="Αλβανία">Αλβανία</option>
+                    <option value="Βουλγαρία">Βουλγαρία</option>
+                </select>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="status">Οικογενειακή Κατάσταση:</label>
+                <select id="status">
+                    <option value="Έγγαμος">Έγγαμος</option>
+                    <option value="Άγαμος">Άγαμος</option>
+                </select>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="address" title="Διέυθυνση με το νούμερο μαζί">Διεύθυνση:</label>
+                <input style="width: 60px;" type="text" id="address" placeholder="Διεύθυνση" required>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="city" title="Η πόλη στην οποία κατοικείτε">Πόλη:</label>
+                <input type="text" id="city" placeholder="Πόλη">
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="region" title="Η περιοχή στην οποία κατοικείτε">Περιοχή/Περιφέρεια:</label>
+                <input type="text" id="region" placeholder="Περιοχή">
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="postal-code" title="5-ψήφιο νούμερο">Ταχυδρομικός Κώδικας:</label>
+                <input type="text" id="postal-code" placeholder="Ταχυδρομικός Κώδικας" maxlength="5">
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="phone" title="Νούμερο κινητού τηλεφώνου">Τηλέφωνο:</label>
+                <input type="tel" id="phone" placeholder="Τηλέφωνο" maxlength="10">
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Email">
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="username">Συνθηματικό Πρόσβασης:</label>
+                <input type="text" id="username" placeholder="Συνθηματικό Πρόσβασης" required>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="password">Κωδικός Πρόσβασης:</label>
+                <input type="password" id="password" placeholder="Κωδικός Πρόσβασης" required>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="terms-agreement">Έχω διαβάσει και αποδέχομαι τους Όρους & Προϋποθέσεις</label>
+                <input type="checkbox" id="terms-agreement" required>
+            </div>
+            <hr>
+            <div class="form-buttons">
+                <button type="reset">Ακύρωση</button>
+                <button type="submit">Υποβολή</button> 
+            </div>
+        </form>
+        
+    </body>
+</html>
+
+
+
